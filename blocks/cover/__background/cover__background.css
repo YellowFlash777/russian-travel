@@ -1,0 +1,41 @@
+.cover__background {
+  min-height: 740px;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/__background.png);
+  min-height: 740px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 -16px;
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover__background {
+    min-height: 200px;
+    width: 100%;
+  }
+}

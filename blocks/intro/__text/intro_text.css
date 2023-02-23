@@ -1,0 +1,31 @@
+.intro__text {
+  max-width: 690px;
+  margin: 0 auto 33px 148px;
+  margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 33px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__text {
+    margin-bottom: 34px;
+    margin-left: 16px;
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
