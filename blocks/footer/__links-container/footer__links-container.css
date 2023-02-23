@@ -1,0 +1,21 @@
+.footer__links-container {
+  margin: 0 0 0 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__links-container {
+    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer__links-container {
+    flex-direction: column;
+  }
+}

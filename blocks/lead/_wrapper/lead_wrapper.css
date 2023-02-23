@@ -1,0 +1,9 @@
+.lead_wrapper {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead_wrapper {
+    margin-bottom: 96px;
+  }
+}

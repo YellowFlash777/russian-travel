@@ -1,9 +1,9 @@
-.intro__wrapper {
+.intro_wrapper {
   margin-bottom: 92px;
 }
 
 @media screen and (max-width: 600px) {
-  .intro__wrapper {
+  .intro_wrapper {
     margin-bottom: 64px;
   }
 }
