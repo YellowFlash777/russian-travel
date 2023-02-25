@@ -3,11 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.lead {
   margin-bottom: 92px;
 }
+
 
 @media screen and (max-width: 1024px) {
   .lead {
