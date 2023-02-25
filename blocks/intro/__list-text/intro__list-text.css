@@ -1,21 +1,13 @@
 .intro__list-text {
-  margin: 0 auto 0 148px;
-  margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
-  max-width: 690px;
+  margin: 0;
+  /* margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024))); */
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__list-text {
-    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-  }
-}
-
 @media screen and (max-width: 600px) {
   .intro__list-text {
-  margin-left: 16px;
   font-size: 12px;
   line-height: 1.5;
   }

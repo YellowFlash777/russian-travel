@@ -14,9 +14,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .place__image {
-    object-fit: contain;
+    width: 100%;
     max-width: 100%;
     margin: 0;
   }

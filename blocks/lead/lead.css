@@ -1,6 +1,28 @@
 .lead {
-  box-sizing: border-box;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.lead {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin-bottom: 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead{
+    margin-bottom: 64px;
+  }
 }
