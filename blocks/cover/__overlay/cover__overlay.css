@@ -11,7 +11,7 @@
   background-image: url(../../../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
+  z-index: 0;
   min-height: 740px;
 }
 
@@ -24,12 +24,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.3;
-  background: #2A2C2F;
-  transition: opacity  ease-out .7s;
+  opacity: 0.5;
+  background-color: #2A2C2F;
+  transition: opacity .7s  ease-in-out;
+  z-index: -1;
 }
 
-.cover__overlay:hover::before {
+.cover__overlay:hover:before {
   opacity: 0.8;
 }
 
