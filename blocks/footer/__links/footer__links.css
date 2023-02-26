@@ -6,13 +6,9 @@
   margin-right: 18px;
 }
 
-.footer__links:last-child {
-  margin-right: 0;
-}
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 650px) {
   .footer__links {
-    margin-left: 16px;
     font-size: 24px;
     line-height: 1;
     margin-bottom: 32px;
