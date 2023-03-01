@@ -5,18 +5,23 @@
 
 @media screen and (max-width: 1024px) {
   .places {
+    margin-left: 48px;
+    margin-right: 48px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
+    margin-left: 24px;
+    margin-right: 24px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .places {
+    margin: 0 0 66px 0;
     max-width: 100%;
   }
 }

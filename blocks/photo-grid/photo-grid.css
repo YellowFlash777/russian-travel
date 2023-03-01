@@ -3,22 +3,21 @@
   margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
-  max-width: 928px;
+  max-width: 100%;
+  margin: 0 48px 92px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
-    max-width: 720px;
-    margin: 0 auto 88px;
+    margin: 0 24px 88px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
-    max-width: 288px;
-    margin: 0 auto 64px;
+    margin: 0 16px 64px;
   }
 }
 
