@@ -27,9 +27,13 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
     margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
-    /* max-width: 100%; */
     line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (650 - 320)));
   }
 }
